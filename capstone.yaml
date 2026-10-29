@@ -1,0 +1,33 @@
+name: "Embeddable Widget & Lead-Capture Platform"
+track: "Backend AI Engineering"
+type: "Capstone"
+status: "In Progress"
+
+description: >
+  A backend platform for creating embeddable lead-capture widgets,
+  collecting submissions, and viewing owner-specific analytics.
+
+technology:
+  - Node.js
+  - Express
+  - PostgreSQL
+  - Docker Compose
+  - JWT
+  - Zod
+  - JavaScript
+
+features:
+  - Authentication
+  - Widget CRUD
+  - Public widget configuration
+  - Lead submission validation
+  - Rate limiting
+  - Honeypot spam prevention
+  - Geolocation fallback
+  - Submission dashboard and analytics
+  - Background notification job queue
+
+verification:
+  automated_tests: "One health test confirmed passing locally"
+  acceptance_tests: "Pending verification"
+  real_notification_delivery: "Not yet implemented"
